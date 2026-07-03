@@ -51,9 +51,6 @@ A new game is built by extending the base game and GUI classes with its own rule
 ```
 game-gui-framework/
 ├── app/
-│   ├── index.html
-│   ├── README.md
-│   ├── TODO.md
 │   ├── audio/
 │   │   └── stroke.mp3
 │   ├── css/
@@ -61,23 +58,26 @@ game-gui-framework/
 │   ├── images/
 │   │   ├── cover.jpg
 │   │   └── favicon.ico
-│   └── script/
-│       ├── main.js
-│       ├── game/            # Game loop and state management
-│       │   ├── direction.js
-│       │   ├── game.js
-│       │   └── position.js
-│       ├── gui/             # Canvas rendering and input handling
-│       │   ├── canvas.js
-│       │   ├── displayer.js
-│       │   ├── events.js
-│       │   ├── gui.js
-│       │   └── timer.js
-│       └── lib/             # Shared utilities
-│           ├── graph.js
-│           ├── linkedlist.js
-│           ├── random.js
-│           └── unionfind.js
+│   ├── script/
+│   │   ├── game/            # Core game logic
+│   │   │   ├── direction.js
+│   │   │   ├── game.js
+│   │   │   └── position.js
+│   │   ├── gui/             # Graphical user interface
+│   │   │   ├── canvas.js
+│   │   │   ├── displayer.js
+│   │   │   ├── events.js
+│   │   │   ├── gui.js
+│   │   │   └── timer.js
+│   │   ├── lib/             # Shared utilities
+│   │   │   ├── graph.js
+│   │   │   ├── linkedlist.js
+│   │   │   ├── random.js
+│   │   │   └── unionfind.js
+│   │   └── main.js
+│   ├── index.html
+│   ├── README.md
+│   └── TODO.md
 ├── LICENSE
 └── README.md
 ```
